@@ -1,7 +1,7 @@
 [project]
 name = "swe370-data-mining-project"
 version = "0.1.0"
-requires-python = "==3.14"
+requires-python = "==3.14.0"
 dependencies = [
     "matplotlib==3.10.7",
     "numpy==2.3.5",

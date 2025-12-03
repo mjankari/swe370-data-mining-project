@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.14"
+requires-python = "==3.14"
 
 [[package]]
 name = "contourpy"
@@ -441,7 +441,7 @@ wheels = [
 ]
 
 [[package]]
-name = "swe370-project"
+name = "swe370-data-mining-project"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -454,11 +454,11 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "matplotlib", specifier = ">=3.10.7" },
-    { name = "numpy", specifier = ">=2.3.5" },
-    { name = "pandas", extras = ["excel"], specifier = ">=2.3.3" },
-    { name = "scikit-learn", specifier = ">=1.7.2" },
-    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "matplotlib", specifier = "==3.10.7" },
+    { name = "numpy", specifier = "==2.3.5" },
+    { name = "pandas", extras = ["excel"], specifier = "==2.3.3" },
+    { name = "scikit-learn", specifier = "==1.7.2" },
+    { name = "seaborn", specifier = "==0.13.2" },
 ]
 
 [[package]]
