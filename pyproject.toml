@@ -1,5 +1,11 @@
 [project]
-name = "swe370-project"
+name = "swe370-data-mining-project"
 version = "0.1.0"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = "==3.14"
+dependencies = [
+    "matplotlib==3.10.7",
+    "numpy==2.3.5",
+    "pandas[excel]==2.3.3",
+    "scikit-learn==1.7.2",
+    "seaborn==0.13.2",
+]
