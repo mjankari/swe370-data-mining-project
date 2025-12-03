@@ -14,6 +14,10 @@ cd swe370-data-mining-project
 uv sync && uv run jupyter lab
 ```
 
+## References
+
+- D. Chen. "Online Retail II," UCI Machine Learning Repository, 2012. [Online]. Available: https://doi.org/10.24432/C5CG6D.
+
 ## License
 
 [GNU General Public License v3.0](./COPYING)
