@@ -10,3 +10,9 @@ dependencies = [
     "scikit-learn==1.7.2",
     "seaborn==0.13.2",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.7",
+    "ty>=0.0.1a30",
+]
