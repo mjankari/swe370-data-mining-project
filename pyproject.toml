@@ -5,7 +5,7 @@ requires-python = "==3.13.9"
 dependencies = [
     "jupyterlab==4.5.0",
     "matplotlib==3.10.7",
-    "numpy>=2.3.5",
+    "numpy==2.3.5",
     "pandas[excel,parquet,performance]==2.3.3",
     "scikit-learn==1.7.2",
     "seaborn==0.13.2",

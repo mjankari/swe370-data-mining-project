@@ -1665,7 +1665,7 @@ dev = [
 requires-dist = [
     { name = "jupyterlab", specifier = "==4.5.0" },
     { name = "matplotlib", specifier = "==3.10.7" },
-    { name = "numpy", specifier = ">=2.3.5" },
+    { name = "numpy", specifier = "==2.3.5" },
     { name = "pandas", extras = ["excel", "parquet", "performance"], specifier = "==2.3.3" },
     { name = "scikit-learn", specifier = "==1.7.2" },
     { name = "seaborn", specifier = "==0.13.2" },
